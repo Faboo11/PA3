@@ -1,0 +1,114 @@
+body{
+    background-color: #333333;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#cabecera{
+    height: 200px;
+    background-color:#333333;
+    position: sticky;
+    top: 0px;
+    padding: 10px;
+    border-bottom: orange solid;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    font-style: oblique;
+    font-size: 400%;
+    color: orange;
+    font-family:'Trebuchet MS';
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    margin: 15px;
+    font-family: 'Segoe UI';
+}
+
+.boton:hover{
+    color: #333333;
+    background-color: orange;
+}
+
+#redes{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 65px;
+    border-radius: 150px;
+}
+
+i{
+    color: white;
+    padding: 7px;
+    margin: px;
+    border-radius: 150px
+}
+
+.reds :hover{
+    color: #333333;
+    background-color: orange;
+}
+
+.grid-container {
+display: grid;
+grid-template-areas:"titulo titulo"
+
+                    "cuerpo imagen"
+
+                    "pie pie";
+
+grid-template-columns: 3fr 1fr;
+gap: 10px;
+
+}
+
+.titulo {
+background-color: orange;
+grid-area: titulo;
+color: white;
+padding: 10px;
+text-align: center;
+font-family: 'Segoe UI';
+}
+
+.cuerpo {
+grid-area: cuerpo;
+margin: 40px;
+font-size: 1.05em;
+text-align: left;
+font-family: 'Segoe UI';
+color: white;
+}
+
+.imagen {
+grid-area: imagen;
+margin: 40px;
+}
+
+.pie {
+background-color: orange;
+grid-area: pie;
+padding: 10px;
+text-align: center;
+}
+
+img{
+    height: 500px;
+}

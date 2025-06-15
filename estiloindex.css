@@ -1,0 +1,86 @@
+body{
+    background-image: url(imagenes/tiro-completo-de-adulto-con-equipo-montando-motocicleta.jpg);
+    background-size: cover;
+    background-position: 93% 7%;
+    background-repeat: no-repeat;
+     
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    font-size: 4em;
+    color: orange;
+    font-family:'Trebuchet MS';
+    font-style: oblique;
+}
+
+
+p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    margin: 20px;
+    font-family: 'Segoe UI';
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.boton{
+    text-decoration: none;
+    padding: 20px;
+    color: orange;
+    background-color: #333333;
+    border-radius: 10px;
+    margin: 20px;
+    font-family: 'Segoe UI';
+}
+
+.reds{
+    text-decoration: none;
+    padding: 0px;
+    color: white;
+    backgr;
+    border-radius: 150px;
+    margin: 20px;
+}
+
+.boton:hover{
+    color: #333333;
+    background-color: orange;
+}
+
+.reds :hover{
+    color: #333333;
+    background-color: orange;
+    border-radius: 150px;
+}
+
+#redes{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+i{
+    color: white;
+    padding: 7px;
+    margin: 7px;
+    border-radius: 150px
+}
